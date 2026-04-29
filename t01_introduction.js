@@ -13,7 +13,7 @@ let birthyear;
 let  oldage;
 oldage = age+10;
 birthyear = year - age;
-halfmoney  = money / 2
+halfmoney  = money / 2;
 /****************************
 Main Code
 ****************************/
