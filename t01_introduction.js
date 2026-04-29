@@ -9,10 +9,15 @@ let Username = "Chamath";
 let year = 2026;
 let age = 16;
 let money = 20;
+let birthyear = 2010;
+let  oldage = 10;
 /****************************
 Main Code
 ****************************/
 console.log("Hi "+Username+" as of " +year+ " you are " +age+ " years old. You have " +money+ " dollars.");
+console.log("you were born in " + birthyear);
+console.log("in ten years you eill be"+ oldage + age)
+console.log()
 
 
 
