@@ -19,7 +19,8 @@ Main Code
 console.log("Hi "+Username+" as of " +year+ " you are " +age+ " years old. You have " +money+ " dollars.");
 console.log("you were born in " + birthyear);
 console.log("in ten years you eill be "+ oldage + " yeras old");
-console.log()
+console.log("You have " +money+ " dollars");
+console.log("you spent half your money, now you have" +money )
 
 
 
