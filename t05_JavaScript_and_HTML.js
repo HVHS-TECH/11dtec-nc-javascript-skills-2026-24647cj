@@ -1,1 +1,31 @@
-/* Paste your code from task 3, Maths here */
+/****************************
+Name of Task: ja
+****************************/
+console.log("Running t01_introduction.js")
+console.log("Hello World")
+
+// Variables
+let Username = "Chamath";
+let year = 2026;
+let age = 16;
+let money = 20;
+let birthyear;
+let  oldage;
+oldage = age+10;
+birthyear = year - age;
+halfmoney  = money / 2;
+/****************************
+Main Code
+****************************/
+console.log("Hi "+Username+" as of " +year+ " you are " +age+ " years old. You have " +money+ " dollars.");
+console.log("you were born in " + birthyear);
+console.log("in ten years you will be "+ oldage + " yeras old");
+console.log("You have " +money+ " dollars");
+console.log("you spent half your money, now you have " + halfmoney + " dollars" );
+console.log("Then you got 3 dollars, now you have " +(halfmoney+3)+" dollars");
+
+
+
+/****************************
+Functions
+****************************/
