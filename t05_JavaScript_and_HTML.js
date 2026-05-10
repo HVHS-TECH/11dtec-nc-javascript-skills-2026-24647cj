@@ -17,6 +17,8 @@ halfmoney  = money / 2;
 /****************************
 Main Code
 ****************************/
+OUTPUT.innerHTML = 
+OUTPUT.innerHTML += "<h2> Added by Javascript</h2>"
 console.log("Hi "+Username+" as of " +year+ " you are " +age+ " years old. You have " +money+ " dollars.");
 console.log("you were born in " + birthyear);
 console.log("in ten years you will be "+ oldage + " yeras old");
