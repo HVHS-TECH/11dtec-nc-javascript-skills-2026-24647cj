@@ -17,6 +17,7 @@ halfmoney  = money / 2;
 /****************************
 Main Code
 ****************************/
+const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
 OUTPUT.innerHTML += "<p>Hello " + userName + "</p>";
 OUTPUT.innerHTML += "<p>Second Paragraph line .< /p>";
