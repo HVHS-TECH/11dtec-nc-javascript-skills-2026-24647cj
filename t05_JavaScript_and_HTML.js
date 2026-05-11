@@ -14,10 +14,11 @@ let  oldage;
 oldage = age+10;
 birthyear = year - age;
 halfmoney  = money / 2;
+const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 /****************************
 Main Code
 ****************************/
-const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+
 OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
 OUTPUT.innerHTML("Hi "+Username+" as of " +year+ " you are " +age+ " years old. You have " +money+ " dollars.");
 OUTPUT.innerHTML("you were born in " + birthyear);
