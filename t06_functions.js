@@ -32,3 +32,8 @@ OUTPUT.innerHTML +=("<p>Then you got 3 dollars, now you have " +(halfmoney+3)+" 
 /****************************
 Functions
 ****************************/
+function writeLine(){
+// Add a line to the html page
+OUTPUT.innerHTML += "<p>Less code matters</p>";
+
+}
