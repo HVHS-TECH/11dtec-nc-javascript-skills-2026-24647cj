@@ -25,7 +25,7 @@ writeLine()
 Functions
 ****************************/
 
-function writeLine() {
+function start() {
 
 OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
 OUTPUT.innerHTML +=("<p>Hi "+Username+" as of " +year+ " you are " +age+ " years old. You have " +money+ " dollars.</p>");
