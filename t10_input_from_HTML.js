@@ -37,7 +37,6 @@ OUTPUT.innerHTML +=("<p>Then you got 3 dollars, now you have " +(halfmoney+3)+" 
 
 }
 
-let Username = NAME_FIELD.value;
 
 function displayProduct(_name, _price) {
     OUTPUT.innerHTML += "<p>" + _name + ": $" + _price + "</p>";
@@ -46,4 +45,10 @@ displayProduct("Chocolate bar", 4);
 displayProduct("Chips", 3);
 displayProduct("Drink", 2.50);
 
+
+
+function getFormInput(){
 const NAME_FIELD = document.getElementById("nameField");
+let userName = NAME_FIELD.value;
+OUTPUT.innerHTML = "<p>Your name is "+userName+"</p>";
+}
