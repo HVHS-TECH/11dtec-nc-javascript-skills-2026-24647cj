@@ -44,7 +44,3 @@ displayProduct("Chocolate bar", 4);
 displayProduct("Chips", 3);
 displayProduct("Drink", 2.50);
 
-<form onsubmit="return false; ">
- <input type="text" id="nameField">
- <input type="submit" onClick=getFormInput()>
-</form>
