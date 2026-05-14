@@ -52,7 +52,9 @@ const NAME_FIELD = document.getElementById("nameField");
 const NAME_FIELD = document.getElementById("ageField");
 const NAME_FIELD = document.getElementById("colorField");
 let userName = NAME_FIELD.value;
-let ageField = NAME_FIELD.value;
-let colorField = NAME_FIELD.value;
+let ageField = age_FIELD.value;
+let colorField = colorField_FIELD.value;
 OUTPUT.innerHTML = "<p>Your name is "+userName+"</p>";
+OUTPUT.innerHTML = "<p>Your age is "+age+"</p>";
+OUTPUT.innerHTML = "<p>Your favourite color is "+colorField+"</p>";
 }
