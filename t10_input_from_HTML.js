@@ -44,3 +44,4 @@ displayProduct("Chocolate bar", 4);
 displayProduct("Chips", 3);
 displayProduct("Drink", 2.50);
 
+const NAME_FIELD = document.getElementById("nameField");
