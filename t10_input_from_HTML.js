@@ -46,7 +46,6 @@ displayProduct("Chips", 3);
 displayProduct("Drink", 2.50);
 
 
-
 function getFormInput(){
 const NAME_FIELD = document.getElementById("nameField");
 const NAME_FIELD = document.getElementById("ageField");
