@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>T12-conditionals</title>
+  <title>T10-input from HTML</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -16,10 +16,23 @@
 **************************************************************-->
 
 <body>
-  <h1>T12-conditionals</h1>
+  <h1>T10-input from HTML</h1>
   <p>Open the console <code>(Ctrl-shift-i)</code> to see the messages.</p>
 
-  <p><br><br><i>Copy your HTML from the last task and keep building.</i><br><br><br><br></p>
+<button onclick="start()">start</button>
+
+<form onsubmit="return false; ">
+<label for="formName">Name :</label>
+<input type="text" id="nameField" name="formName">
+
+<label for="formAge">Age :</label>
+<input type="text" id="ageField" name="formAge">
+
+<label for="formColor">Favourite colour :</label>
+<input type="text" id="colorField" name="formColor">
+
+<input type="submit" onClick=getFormInput()>
+</form>
 
   <div id="spaceForJavaScriptOutput">
 
@@ -28,11 +41,11 @@
   </div>
 
 
-  <script src="../t12_conditionals.js"></script>
+  <script src="../t10_input_from_HTML.js"></script>
 
 </body>
 
 </html>
 <!--*************************************************************
-  END OF T12_CONDITIONALS.HTML
+  END OF T10_INPUT_FROM_HTML.HTML
 **************************************************************-->
