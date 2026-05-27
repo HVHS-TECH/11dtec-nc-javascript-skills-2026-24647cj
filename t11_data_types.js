@@ -35,15 +35,15 @@ const MONEY_FIELD = document.getElementById("moneyField");
 let userName = NAME_FIELD.value;
 let userAge = AGE_FIELD.value;
 let birthYear = BIRTHY_FIELD.value;
-let usermoney = MONEY_FIELD.value;
+let userMoney = MONEY_FIELD.value;
 
 
 OUTPUT.innerHTML = "<p>Your name is "+userName+"</p>";
 OUTPUT.innerHTML +=("<p>Hi "+userName+" as of " +year+ " you are " +userAge+ " years old. You have " +usermoney+ " dollars.</p>");
 OUTPUT.innerHTML +=("<p>you were born in " + birthYear+"</p>");
 OUTPUT.innerHTML +=("<p>in ten years you will be "+ oldage + " yeras old</p>");
-OUTPUT.innerHTML +=("<p>You have " +usermoney+ " dollars</p>");
-OUTPUT.innerHTML +=("<p>you spent half your money, now you have " + (usermoney/2) + " dollars</p>" );
+OUTPUT.innerHTML +=("<p>You have " +userMoney+ " dollars</p>");
+OUTPUT.innerHTML +=("<p>you spent half your money, now you have " + (userMoney/2) + " dollars</p>" );
 OUTPUT.innerHTML +=("<p>Then you got 3 dollars, now you have " +(halfmoney+3)+" dollars</p>");
 
 }
