@@ -43,7 +43,7 @@ OUTPUT.innerHTML +=("<p>Hi "+userName+" as of " +year+ " you are " +userAge+ " y
 OUTPUT.innerHTML +=("<p>you were born in " + birthYear+"</p>");
 OUTPUT.innerHTML +=("<p>in ten years you will be "+ oldage + " yeras old</p>");
 OUTPUT.innerHTML +=("<p>You have " +usermoney+ " dollars</p>");
-OUTPUT.innerHTML +=("<p>you spent half your money, now you have " + (userName/2) + " dollars</p>" );
+OUTPUT.innerHTML +=("<p>you spent half your money, now you have " + (usermoney/2) + " dollars</p>" );
 OUTPUT.innerHTML +=("<p>Then you got 3 dollars, now you have " +(halfmoney+3)+" dollars</p>");
 
 }
