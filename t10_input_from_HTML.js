@@ -39,8 +39,8 @@ Functions
 
 function getFormInput(){
 const NAME_FIELD = document.getElementById("nameField");
-const NAME_FIELD = document.getElementById("ageField");
-const NAME_FIELD = document.getElementById("colorField");
+const AGE_FIELD = document.getElementById("ageField");
+const COLOR_FIELD = document.getElementById("colorField");
 let userName = NAME_FIELD.value;
 let ageField = AGE_FIELD.value;
 let colorField = COLOR_FIELD.value;
