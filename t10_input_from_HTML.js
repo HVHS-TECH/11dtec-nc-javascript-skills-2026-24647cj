@@ -29,12 +29,16 @@ function getFormInput(){
 const NAME_FIELD = document.getElementById("nameField");
 const AGE_FIELD = document.getElementById("ageField");
 const COLOR_FIELD = document.getElementById("colorField");
+
 let userName = NAME_FIELD.value;
 let ageField = AGE_FIELD.value;
 let colorField = COLOR_FIELD.value;
-// OUTPUT.innerHTML = "<p>Your name is "+userName+"</p>";
-// OUTPUT.innerHTML = "<p>Your age is "+age+"</p>";
-// OUTPUT.innerHTML = "<p>Your favourite color is "+colorField+"</p>";
+
+OUTPUT.innerHTML = 
+ "<p>Your name is "+userName+"</p>";
+ OUTPUT.innerHTML = 
+ "<p>Your age is "+age+"</p>";
+ "<p>Your favourite color is "+colorField+"</p>";
 }
 
 function start() {
