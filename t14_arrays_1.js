@@ -58,7 +58,7 @@ if(userMoney >= coffeeprice){
     OUTPUT.innerHTML += "<p>A coffee costs 4 dollars, You can't afford a coffee!</p>"
 }
 
-OUTPUT.innerHTML += "<p>Your likeness towrds choclate:"
+OUTPUT.innerHTML += "<p>Your likeness towrds choclate:" + charray[chocScale]+"</p>";
 }
 
 
