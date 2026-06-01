@@ -20,13 +20,13 @@ function getFormInput() {
 const NAME_FIELD = document.getElementById("nameField");
 const AGE_FIELD = document.getElementById("ageField");
 const MONEY_FIELD = document.getElementById("moneyField");
-const BIRTHY_FIELD = document.getElementById()
+const BIRTHY_FIELD = document.getElementById("birthyField");
 
 
 let userName = NAME_FIELD.value;
 let userAge = AGE_FIELD.value;       
 let userMoney = MONEY_FIELD.value;
-let birthYear = year - userAge;
+let birthYear = BIRTHY_FIELD.value
 let oldage = userAge + 10;
 let halfmoney = userMoney / 2;
 
