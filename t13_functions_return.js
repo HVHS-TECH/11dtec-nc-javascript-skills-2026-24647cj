@@ -45,8 +45,10 @@ function calculateChange(_money, _price) {
 }
 
 if(userMoney >= coffeeprice){
-    let changeDue = calculateChange(userMoney, chocolatePrice);
+    let changeDue = calculateChange(userMoney, coffeeprice);
+
     OUTPUT.innerHTML += "<p>A coffee costs 4 dollars, You can afford a coffee!</p>"
+    OUTPUT.innerHTML += "<p>You will get $" + changeDue + " change</p>"; 
 } else{
     OUTPUT.innerHTML += "<p>A coffee costs 4 dollars, You can't afford a coffee!</p>"
 }
