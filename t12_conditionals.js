@@ -1,59 +1,38 @@
-/****************************
-Name of Task: ja
-****************************/
-console.log("Running t01_introduction.js")
-console.log("Hello World")
-
-// Variables
-let Username = "Chamath";
+// Variables - Initial default values
+let username = "Chamath";
 let year = 2026;
 let age = 16;
 let money = 20;
-let birthyear;
-let  oldage;
-oldage = age+10;
-birthyear = year - age;
-halfmoney  = money / 2;
+
+// Grab the HTML output element
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-/****************************
-Main Code
-****************************/
 
-writeLine()
+/*********************************
+ Main Code
+*********************************/
+// You can leave this empty or use it to initialize default text if needed
 
-/****************************
-Functions
-****************************/
-
-function start() {
-
-OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
-OUTPUT.innerHTML +=("<p>Hi "+Username+" as of " +year+ " you are " +age+ " years old. You have " +money+ " dollars.</p>");
-OUTPUT.innerHTML +=("<p>you were born in " + birthyear+"</p>");
-OUTPUT.innerHTML +=("<p>in ten years you will be "+ oldage + " yeras old</p>");
-OUTPUT.innerHTML +=("<p>You have " +money+ " dollars</p>");
-OUTPUT.innerHTML +=("<p>you spent half your money, now you have " + halfmoney + " dollars</p>" );
-OUTPUT.innerHTML +=("<p>Then you got 3 dollars, now you have " +(halfmoney+3)+" dollars</p>");
-
-}
-
-
-function displayProduct(_name, _price) {
-    OUTPUT.innerHTML += "<p>" + _name + ": $" + _price + "</p>";
-}
-displayProduct("Chocolate bar", 4);
-displayProduct("Chips", 3);
-displayProduct("Drink", 2.50);
-
-
-function getFormInput(){
+/*********************************
+ Functions
+*********************************/
+function getFormInput() {
+    
 const NAME_FIELD = document.getElementById("nameField");
-const NAME_FIELD = document.getElementById("ageField");
-const NAME_FIELD = document.getElementById("colorField");
+const AGE_FIELD = document.getElementById("ageField");
+const MONEY_FIELD = document.getElementById("moneyField");
+
 let userName = NAME_FIELD.value;
-let ageField = AGE_FIELD.value;
-let colorField = COLOR_FIELD.value;
-OUTPUT.innerHTML = "<p>Your name is "+userName+"</p>";
-OUTPUT.innerHTML = "<p>Your age is "+age+"</p>";
-OUTPUT.innerHTML = "<p>Your favourite color is "+colorField+"</p>";
+let userAge = Number(AGE_FIELD.value);       
+let userMoney = Number(MONEY_FIELD.value);   
+let birthYear = year - userAge;
+let oldage = userAge + 10;
+let halfmoney = userMoney / 2;
+
+OUTPUT.innerHTML = "<p>Your name is " + userName + "</p>";
+OUTPUT.innerHTML += "<p>Hi " + userName + " as of " + year + " you are " + userAge + " years old. You have " + userMoney + " dollars.</p>";
+OUTPUT.innerHTML += "<p>You were born in " + birthYear + "</p>";
+OUTPUT.innerHTML += "<p>In ten years you will be " + oldage + " years old</p>";
+OUTPUT.innerHTML += "<p>You have " + userMoney + " dollars</p>";
+OUTPUT.innerHTML += "<p>You spent half your money, now you have " + halfmoney + " dollars</p>";
+OUTPUT.innerHTML += "<p>Then you got 3 dollars, now you have " + (halfmoney + 3) + " dollars</p>";
 }
