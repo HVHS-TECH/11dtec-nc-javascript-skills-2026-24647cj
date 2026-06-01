@@ -38,6 +38,11 @@ OUTPUT.innerHTML += "<p>You have " + userMoney + " dollars</p>";
 OUTPUT.innerHTML += "<p>You spent half your money, now you have " + halfmoney + " dollars</p>";
 OUTPUT.innerHTML += "<p>Then you got 3 dollars, now you have " + (halfmoney + 3) + " dollars</p>";
 
+function calculateChange(_money, _price) {
+    let change = _money - _price;
+    return change; 
+}
+
 if(userMoney >= 4){
     OUTPUT.innerHTML += "<p>A coffee costs 4 dollars, You can afford a coffee!</p>"
 } else{
