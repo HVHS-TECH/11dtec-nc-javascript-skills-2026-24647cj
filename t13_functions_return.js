@@ -46,6 +46,8 @@ if(userMoney >= 4){
 }
 
 function calculateChange(_money,_price){
+     if(userMoney >=4 ){
 
+     }
 }
 
