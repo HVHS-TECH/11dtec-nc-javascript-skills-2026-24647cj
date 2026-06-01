@@ -2,50 +2,38 @@
 <html lang="en">
 
 <head>
-  <title>T10-input from HTML</title>
+  <title>Task 12 - Conditional Statements</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- stylesheets *******************************************-->
   <link rel="stylesheet" href="../css/style.css">
   <link rel="icon" type="image/png" href="../assets/dtec_favicon.png">
 </head>
 
-<!--*************************************************************
-  BODY
-**************************************************************-->
-
 <body>
-  <h1>T10-input from HTML</h1>
+  <h1>Task 12 - Conditional Statements</h1>
   <p>Open the console <code>(Ctrl-shift-i)</code> to see the messages.</p>
 
-<button onclick="start()">start</button>
+  <button onclick="start()">Start Default Demo</button>
+  <br><br>
 
-<form onsubmit="return false; ">
-<label for="formName">Name :</label>
-<input type="text" id="nameField" name="formName">
+  <form onsubmit="return false;">
+    <label for="formName">Name:</label>
+    <input type="text" id="nameField" name="formName"><br><br>
 
-<label for="formAge">Age :</label>
-<input type="text" id="ageField" name="formAge">
+    <label for="formAge">Age:</label>
+    <input type="text" id="ageField" name="formAge"><br><br>
 
-<label for="formColor">Favourite colour :</label>
-<input type="text" id="colorField" name="formColor">
+    <label for="formMoney">Pocket Money ($):</label>
+    <input type="text" id="moneyField" name="formMoney"><br><br>
 
-<input type="submit" onClick=getFormInput()>
-</form>
+    <input type="submit" value="Submit Form" onClick="getFormInput()">
+  </form>
 
   <div id="spaceForJavaScriptOutput">
-
     The output of your script will go here.
-
   </div>
 
-
-  <script src="../t12_data_types.js"></script>
-
+  <script src="../t12_conditional_statements.js"></script>
 </body>
 
 </html>
-<!--*************************************************************
-  END OF T10_INPUT_FROM_HTML.HTML
-**************************************************************-->
