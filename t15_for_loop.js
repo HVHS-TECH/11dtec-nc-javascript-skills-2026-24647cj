@@ -1,6 +1,3 @@
-/*********************************
-Name of Task: Task 15 - Iteration (The For Loop)
-*********************************/
 console.log("Running t15_for_loop.js");
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
@@ -36,7 +33,6 @@ function generateLyrics() {
        
         OUTPUT.innerHTML += "<p>" + i + " " + currentBottleText + " of milk on the wall, " + i + " " + currentBottleText + " of milk.<br>";
         OUTPUT.innerHTML += "Take one down and pass it around, " + nextNumDisplay + " " + nextBottleText + " of milk on the wall.</p>";
-        OUTPUT.innerHTML += "<hr style='border: 0; border-top: 1px dashed #ccc;'>";
     }
 
    
