@@ -16,27 +16,39 @@
 **************************************************************-->
 
 <body>
- <h1>T11- Data types</h1>
-    <p>Open the console <code>(Ctrl-shift-i)</code> to see the messages.</p>
+  <h1>T11- Data types</h1>
+  <p>Open the console <code>(Ctrl-shift-i)</code> to see the messages.</p>
 
-    <form onsubmit="return false;">
-        <label for="formName">Name: </label>
-        <input type="text" id="nameField" name="formName"><br><br>
+  <button onclick="start()">start</button>
 
-        <label for="formAge">Age: </label>
-        <input type="text" id="ageField" name="formAge"><br><br>
+<form onsubmit="return false; ">
+<label for="formName">Name :</label>
+<input type="text" id="nameField" name="formName">
 
-        <label for="formmoney">Money: </label>
-        <input type="text" id="moneyField" name="formmoney"><br><br>
+<label for="formAge">Age :</label>
+<input type="text" id="ageField" name="formAge">
 
-        <input type="submit" value="Submit" onClick="getFormInput()">
-    </form>
+<label for="formBirthy">Birth Year :</label>
+<input type="text" id="birthyField" name="formbirthy">
 
-    <div id="spaceForJavaScriptOutput">
-        <p>The output of your script will go here.</p>
-    </div>
+<label for="formmoney">Money :</label>
+<input type="text" id="moneyField" name="formmoney">
 
-    <script src="../t11_data_types.js"></script>
+
+<input type="submit" onClick=getFormInput()>
+
+
+</form>
+
+  <div id="spaceForJavaScriptOutput">
+
+    The output of your script will go here.
+
+  </div>
+
+
+  <script src="../t11_data_types.js"></script>
+
 </body>
 
 </html>
