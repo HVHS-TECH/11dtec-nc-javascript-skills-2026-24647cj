@@ -29,6 +29,7 @@ let userMoney = MONEY_FIELD.value;
 let birthYear = BIRTHY_FIELD.value
 let oldage = userAge + 10;
 let halfmoney = userMoney / 2;
+let coffeeprice = 4
 
 OUTPUT.innerHTML = "<p>Your name is " + userName + "</p>";
 OUTPUT.innerHTML += "<p>Hi " + userName + " as of " + year + " you are " + userAge + " years old. You have " + userMoney + " dollars.</p>";
@@ -43,7 +44,8 @@ function calculateChange(_money, _price) {
     return change; 
 }
 
-if(userMoney >= 4){
+if(userMoney >= coffeeprice){
+    let changeDue = calculateChange(userMoney, chocolatePrice);
     OUTPUT.innerHTML += "<p>A coffee costs 4 dollars, You can afford a coffee!</p>"
 } else{
     OUTPUT.innerHTML += "<p>A coffee costs 4 dollars, You can't afford a coffee!</p>"
