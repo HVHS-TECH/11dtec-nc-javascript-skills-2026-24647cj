@@ -22,8 +22,8 @@ const AGE_FIELD = document.getElementById("ageField");
 const MONEY_FIELD = document.getElementById("moneyField");
 
 let userName = NAME_FIELD.value;
-let userAge = Number(AGE_FIELD.value);       
-let userMoney = Number(MONEY_FIELD.value);   
+let userAge = AGE_FIELD.value;       
+let userMoney = MONEY_FIELD.value;
 let birthYear = year - userAge;
 let oldage = userAge + 10;
 let halfmoney = userMoney / 2;
