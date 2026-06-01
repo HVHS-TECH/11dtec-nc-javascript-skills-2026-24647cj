@@ -15,6 +15,11 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 /*********************************
  Functions
 *********************************/
+function calculateChange(_money, _price) {
+    let change = _money - _price;
+    return change; 
+}
+
 function getFormInput() {
     
 const NAME_FIELD = document.getElementById("nameField");
@@ -39,10 +44,6 @@ OUTPUT.innerHTML += "<p>You have " + userMoney + " dollars</p>";
 OUTPUT.innerHTML += "<p>You spent half your money, now you have " + halfmoney + " dollars</p>";
 OUTPUT.innerHTML += "<p>Then you got 3 dollars, now you have " + (halfmoney + 3) + " dollars</p>";
 
-function calculateChange(_money, _price) {
-    let change = _money - _price;
-    return change; 
-}
 
 if(userMoney >= coffeeprice){
     let changeDue = calculateChange(userMoney, coffeeprice);
