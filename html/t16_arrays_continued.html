@@ -19,7 +19,26 @@
   <h1>T16-arrays continued</h1>
   <p>Open the console <code>(Ctrl-shift-i)</code> to see the messages.</p>
 
-  <p><br><br><i>Copy your HTML from the last task and keep building.</i><br><br><br><br></p>
+   <button onclick="start()">start</button>
+
+<form onsubmit="return false; ">
+<label for="formName">Name :</label>
+<input type="text" id="nameField" name="formName">
+
+<label for="formAge">Age :</label>
+<input type="text" id="ageField" name="formAge">
+
+<label for="formBirthy">Birth Year :</label>
+<input type="text" id="birthyField" name="formbirthy">
+
+<label for="formmoney">Money :</label>
+<input type="text" id="moneyField" name="formmoney">
+
+<label for="formChoc">Choclate likeness scale :</label>
+<input type="text" id="chocField" name="formChoc">
+
+
+<input type="submit" onClick=getFormInput()>
 
   <div id="spaceForJavaScriptOutput">
 
