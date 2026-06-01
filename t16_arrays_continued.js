@@ -62,5 +62,3 @@ OUTPUT.innerHTML += "<p>Your likeness towrds choclate:" + charray[chocScale]+"</
 }
 
 
-
-/* Paste your code from the last task */
