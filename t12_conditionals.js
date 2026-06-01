@@ -37,7 +37,7 @@ OUTPUT.innerHTML += "<p>You spent half your money, now you have " + halfmoney + 
 OUTPUT.innerHTML += "<p>Then you got 3 dollars, now you have " + (halfmoney + 3) + " dollars</p>";
 
 if(userMoney >= 4){
- OUTPUT.innerHTML += "<p>A coffee costs 4 dollars, You can afford a coffee!</p>"
+    OUTPUT.innerHTML += "<p>A coffee costs 4 dollars, You can afford a coffee!</p>"
 } else{
     OUTPUT.innerHTML += "<p>A coffee costs 4 dollars, You can't afford a coffee!</p>"
 }
