@@ -27,6 +27,7 @@ const AGE_FIELD = document.getElementById("ageField");
 const MONEY_FIELD = document.getElementById("moneyField");
 const BIRTHY_FIELD = document.getElementById("birthyField");
 const CHOC_FIELD = document.getElementById("chocField");
+const SHOP_FIELD = document.getElementById("shopField");
 
 
 let userName = NAME_FIELD.value;
@@ -34,6 +35,7 @@ let userAge = AGE_FIELD.value;
 let userMoney = MONEY_FIELD.value;
 let birthYear = BIRTHY_FIELD.value
 let chocScale = CHOC_FIELD.value;
+let shoplist = SHOP_FIELD.value;
 let oldage = userAge + 10;
 let halfmoney = userMoney / 2;
 let coffeeprice = 4
@@ -63,7 +65,7 @@ OUTPUT.innerHTML += "<p>Your likeness towrds choclate:" + charray[chocScale]+"</
 }
 
 function getFormInput(){
-    
+    cons
 }
 
 
