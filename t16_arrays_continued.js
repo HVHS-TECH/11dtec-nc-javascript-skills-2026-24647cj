@@ -69,4 +69,11 @@ function getShoplist(){
     OUTPUT.innerHTML = "<p>You have added" +shoplist+ "to your list </p>"
 }
 
+function displayList(){
+    OUTPUT.innerHTML = "<p>Your List:</p>"
+    for(let i=0 i<shoparray.length; i++){
+        OUTPUT.innerHTML += "<p>Item"+(i+1)+":shoparray(i)+"
+    }
+}
+
 
