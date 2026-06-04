@@ -62,7 +62,7 @@ if(userMoney >= coffeeprice){
 OUTPUT.innerHTML += "<p>Your likeness towrds choclate:" + charray[chocScale]+"</p>";
 }
 
-function getFormInput(){
+function getShoplist(){
     const SHOP_FIELD = document.getElementById("shopField");
     let shoplist = SHOP_FIELD.value;
     shoparray.push(shoplist);
