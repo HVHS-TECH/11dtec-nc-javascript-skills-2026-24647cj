@@ -38,7 +38,7 @@ let oldage = userAge + 10;
 let halfmoney = userMoney / 2;
 let coffeeprice = 4
 let charray = ["You loath chocolate","Chocolate is meh","Chocolate is pretty good","Chocolate is the best thing EVER!!!!"];
-let shoparray = [""]
+
 
 OUTPUT.innerHTML = "<p>Your name is " + userName + "</p>";
 OUTPUT.innerHTML += "<p>Hi " + userName + " as of " + year + " you are " + userAge + " years old. You have " + userMoney + " dollars.</p>";
