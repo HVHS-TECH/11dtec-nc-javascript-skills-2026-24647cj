@@ -62,4 +62,8 @@ if(userMoney >= coffeeprice){
 OUTPUT.innerHTML += "<p>Your likeness towrds choclate:" + charray[chocScale]+"</p>";
 }
 
+function getFormInput(){
+    
+}
+
 
