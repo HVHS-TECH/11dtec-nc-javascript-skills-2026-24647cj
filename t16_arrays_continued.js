@@ -3,7 +3,7 @@ let username = "Chamath";
 let year = 2026;
 let age = 16;
 let money = 20;
-
+let shoparray = [""]
 // Grab the HTML output element
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
@@ -66,7 +66,7 @@ function getShoplist(){
     const SHOP_FIELD = document.getElementById("shopField");
     let shoplist = SHOP_FIELD.value;
     shoparray.push(shoplist);
-    OUTPUT.innerHTML = "<p>You have added"+shoplist+"to your list </p>"
+    OUTPUT.innerHTML = "<p>You have added" +shoplist+ "to your list </p>"
 }
 
 
