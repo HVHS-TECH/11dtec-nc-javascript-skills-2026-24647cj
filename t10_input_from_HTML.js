@@ -46,4 +46,4 @@ OUTPUT.innerHTML +=("<p>Then you got 3 dollars, now you have " +(halfmoney+3)+" 
 
 }
 
-
+    
