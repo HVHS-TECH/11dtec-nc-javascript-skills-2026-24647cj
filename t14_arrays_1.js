@@ -30,6 +30,7 @@ const CHOC_FIELD = document.getElementById("chocField");
 
 
 let userName = NAME_FIELD.value;
+
 let userAge = AGE_FIELD.value;       
 let userMoney = MONEY_FIELD.value;
 let birthYear = BIRTHY_FIELD.value
